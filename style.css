@@ -1,0 +1,357 @@
+#container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    min-height: 100vh; /* Make the container at least the height of the viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b4abab;
+    color: #333;
+}
+
+/* Navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    font-weight: bold;
+    color: #ff6347; /* Couleur d'activation */
+}
+
+
+.section {
+    text-align: center;
+    padding: 0;
+    color: black;
+}
+
+.section .btn {
+    display: inline-block;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.section .btn:hover {
+    background-color: #e5533c;
+}
+
+.promo-image {
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Pushes the footer to the bottom of the container */
+}
+
+
+/* Programme Section */
+.programme {
+    text-align: center;
+    padding: 50px;
+}
+
+.programme table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.programme th, .programme td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.programme th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+.btn {
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Inscription Form */
+.inscription form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.inscription fieldset {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.inscription legend {
+    font-weight: bold;
+}
+
+.inscription input, .inscription select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inscription button {
+    margin-top: 20px;
+}
+
+.inscription h1{
+    text-align: center;
+}
+
+.button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* Intervenants */
+.intervenants {
+    text-align: center;
+    padding: 50px;
+    color: black;
+}
+
+.intervenant {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.intervenant img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.intervenant h2 {
+    color: #ff6347;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: #ff6347;
+}
+
+/* À propos */
+.about {
+    padding: 50px;
+    text-align: left;
+    color: black;
+}
+
+.about h1 {
+    text-align: center;
+    color: #ff6347;
+    margin-bottom: 30px;
+}
+
+.about h2 {
+    color: #333;
+    margin-top: 20px;
+    border-bottom: 2px solid #ff6347;
+    padding-bottom: 5px;
+}
+
+.about p {
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+
+/* Contact */
+.contact {
+    padding: 50px;
+    text-align: left;
+    color: black;
+}
+
+.contact h1 {
+    text-align: center;
+    color: #ff6347;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.contact .btn {
+    display: block;
+    width: 100%;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact .btn:hover {
+    background-color: #e5533c;
+}
+
+.contact-info {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.map {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+}
+
+
+/* Partenaires */
+.partners {
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+
+.partners h1 {
+    color: #ff6347;
+    margin-bottom: 30px;
+}
+
+.partners p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.partner {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.partner img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.partner p {
+    margin: 0;
+}
+
+.partner a {
+    text-decoration: none;
+    color: #ff6347;
+    font-weight: bold;
+}
+
+.partner a:hover {
+    color: #e5533c;
+}

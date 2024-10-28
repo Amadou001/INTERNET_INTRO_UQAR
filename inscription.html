@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Festival Créativité & Design 2024</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> <i class="fa-solid fa-house"></i>Accueil</a></li>
+                    <li><a href="programme.html">Programme</a></li>
+                    <li><a href="inscription.html" class="active">Inscription</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="intervenants.html">Intervenants</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-circle-user"></i></i>Contact</a></li>
+                    <li><a href="partenaires.html">Partenaires et sponsors</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="inscription">
+                <h1>Inscription</h1>
+                <form>
+                    <fieldset>
+                        <legend>Informations personnelles</legend>
+                        <input type="text" name="nom" placeholder="Nom" required>
+                        <input type="text" name="prenom" placeholder="Prénom" required>
+                        <select name="sexe">
+                            <option value="masculin">Masculin</option>
+                            <option value="feminin">Féminin</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                        <input type="email" name="email" placeholder="Adresse courriel" required>
+                        <input type="tel" name="telephone" placeholder="Numéro de téléphone">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Informations professionnelles</legend>
+                        <input type="text" name="entreprise" placeholder="Entreprise/Organisation">
+                        <input type="text" name="poste" placeholder="Titre du poste">
+                        <input type="text" name="secteur" placeholder="Secteur d'activité">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Type de billet</legend>
+                        <select name="type_billet">
+                            <option value="general">Billet général</option>
+                            <option value="vip">Billet VIP</option>
+                            <option value="etudiant">Billet étudiant</option>
+                        </select>
+                        <input type="text" name="code_promo" placeholder="Code promo (facultatif)">
+                    </fieldset>
+
+                    <div>
+                        <button type="submit" class="button">Soumettre</button>
+                        <button type="reset" class="button">Réinitialiser</button>
+                    </div>
+                </form>
+                <p>Consultez les tarifs des billets ci-dessous :</p>
+                <ul>
+                    <li>Billet général : 100 $</li>
+                    <li>Billet VIP : 200 $</li>
+                    <li>Billet étudiant : 50 $</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Festival Créativité & Design. Tous droits réservés.</p>
+        </footer>
+    </div>
+</body>
+</html>
